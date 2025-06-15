@@ -2,16 +2,17 @@ import { useState } from "react"
 
 // kono kisu change korar jonno amn korte hoi
 export default function Counter() {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(0);//akhnae "useState(0) use kora hoyese mane website a dekhabe 0 theke start hbe "
+    
     // aita use korar karon holo btn a click krle jeno man bare 
     const handleAdd = () => {
         const newCount = count + 1;
-        setCount(newCount)
+        setCount(newCount);
     }
     // aita btn a click krle jeno man kome sei jonno use kora hoi 
     const handleRedus=()=>{
         const newRedus=count-1;
-        setCount(newRedus)
+        setCount(newRedus);
     }
     return (
         <div style={{ border: '2px solid red' }}>

@@ -1,6 +1,8 @@
 import './App.css'
 import Counter from './counter';
 
+
+
 function App() {
   function handleClick() {
     // "alert" use krle btn a click krle notification dekhabe 
@@ -19,7 +21,10 @@ function App() {
   }
   return (
     <>
-      <h1>React core </h1>
+      <h1>React core hello men</h1>
+
+
+
       <Counter></Counter>
       {/* <button onClick="handleClick">click me</button>::: aita js a koraq hoito kintu btn  a on click add krte niche deoya example er moto krte hbe  */}
       <button onClick={handleClick}>click me</button>
